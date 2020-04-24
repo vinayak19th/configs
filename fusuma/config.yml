@@ -1,0 +1,35 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key alt+Shift+Tab'
+    right:
+      command: 'xdotool key alt+Tab'
+    up:
+      command: '/usr/lib/budgie-previews/previews_triggers hotcorners_all'
+    down:
+      command: 'xdotool key super+d'
+  4:
+    up:
+      command: 'xdotool key super+Shift++'
+    down:
+      command: 'xdotool key super+Shit+-'
+    left:
+      command: 'xdotool key alt+Left'
+    right:
+      command: 'xdotool key alt+Right'
+
+pinch:
+  in:
+    command: 'xdotool key super+a'
+    threshold: 0.1
+  out:
+     command: 'xdotool key super'
+     threshold: 0.1
+
+threshold:
+  swipe: 1
+  pinch: 1
+
+interval:
+  swipe: 1
+  pinch: 1
